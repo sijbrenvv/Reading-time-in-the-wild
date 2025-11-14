@@ -1,0 +1,24 @@
+Average reading time per token (y_test): 0.2057160319943686
+Predicted average reading time per token (y_pred): 0.20477363244658875
+Outlier Threshold Used: 0.17872432703814606
+Number of Outliers Found: 12
+Predicted average reading time per token (y_pred) after outlier removal: 0.2047490508652021
+R^2: -0.1390478834758151
+MSE: 0.0023569492157473407
+MAE: 0.038542051799843206
+Correlation gold -- pred: PearsonRResult(statistic=0.03946922871133736, pvalue=0.34520950369219966)
+Standard Deviation Residuals: 0.04842632030206295
+Standard Error Residuals: 0.0020212755563161016
+Feature Importances:
+         Feature  Importance  Std Deviation
+1   flesch_douma     0.28046        0.03765
+0  brouwer_index     0.26200        0.03665
+3    LiNT_score2     0.23840        0.03751
+2    LiNT_score1     0.21913        0.03156
+Explainer baseline prediction: 0.20184872658306005
+Mean Shap Value (Importance):
+         Feature  Importance  Std Deviation
+1   flesch_douma    0.012940        0.00361
+0  brouwer_index    0.010365        0.00361
+3    LiNT_score2    0.005099        0.00361
+2    LiNT_score1    0.004298        0.00361

@@ -1,0 +1,42 @@
+Average reading time per token (y_test): 0.2057160319943686
+Predicted average reading time per token (y_pred): 0.20748191042234518
+Outlier Threshold Used: 0.1726899533217472
+Number of Outliers Found: 12
+Predicted average reading time per token (y_pred) after outlier removal: 0.20746258167461606
+R^2: -0.08397172758456839
+MSE: 0.0022968567698098737
+MAE: 0.03859780547170625
+Correlation gold -- pred: PearsonRResult(statistic=0.08997562817504609, pvalue=0.03113547952963012)
+Standard Deviation Residuals: 0.04751211434765738
+Standard Error Residuals: 0.0019831173370346775
+Feature Importances:
+                    Feature  Importance  Std Deviation
+385             Koppelww_dz     0.01168        0.01229
+258        Subst_abstr_nw_p     0.00985        0.01054
+18   MTLD_inhwrd_zonder_abw     0.00921        0.01019
+29                 Wrd_prev     0.00872        0.01067
+130                Lijdv_dz     0.00694        0.00986
+..                      ...         ...            ...
+427                Afk_ov_d     0.00006        0.00049
+400                Ovd_nw_d     0.00003        0.00020
+387             Infin_bv_dz     0.00000        0.00000
+3             Alpino_status     0.00000        0.00003
+386              Infin_bv_d     0.00000        0.00000
+
+[452 rows x 3 columns]
+Explainer baseline prediction: 0.2079699109276775
+Mean Shap Value (Importance):
+              Feature    Importance  Std Deviation
+258  Subst_abstr_nw_p  1.183433e-03        0.00012
+201      Conn_temp_dz  8.472436e-04        0.00012
+158       Bijw_bep_dz  8.125312e-04        0.00012
+419          Interp_d  7.997190e-04        0.00012
+119    Pv_ww1_per_zin  6.939327e-04        0.00012
+..                ...           ...            ...
+401         Ovd_nw_dz  1.282586e-06        0.00012
+427          Afk_ov_d  5.373871e-07        0.00012
+3       Alpino_status  2.299471e-09        0.00012
+386        Infin_bv_d  0.000000e+00        0.00012
+387       Infin_bv_dz  0.000000e+00        0.00012
+
+[452 rows x 3 columns]

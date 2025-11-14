@@ -1,0 +1,5 @@
+brouwer_index
+flesch_douma
+LiNT_score1
+LiNT_score2
+avg_rt_tok

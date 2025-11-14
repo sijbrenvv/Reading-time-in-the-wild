@@ -1,0 +1,5 @@
+domain
+sentiment_label_detailed
+classification
+day_of_week
+avg_rt_tok

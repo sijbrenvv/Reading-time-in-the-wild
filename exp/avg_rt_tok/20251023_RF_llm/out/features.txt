@@ -1,0 +1,7 @@
+surp_fietje-2
+surp_EuroLLM-9B
+surp_mGPT
+surp_tweety-7b-dutch-v24a
+surp_Qwen3-4B
+surp_Qwen3-1.7B
+avg_rt_tok
